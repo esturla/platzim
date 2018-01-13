@@ -1,0 +1,29 @@
+{
+  "name": "platzim",
+  "version": "0.1.0",
+  "description": "Traductor de idiomas platzim",
+  "main": "dist/src/platzim.js",
+  "scripts": {
+    "build": "babel src/platzim.js -d dist",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/esturla/platzim.git"
+  },
+  "keywords": [
+    "platzim",
+    "platzi",
+    "fundamentos",
+    "javascript",
+    "js"
+  ],
+  "author": "Sturla Emmanuel <emmanuel_sturla@hotmail.com> (https://twitter.com/@lautarosturla)",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "chai": "^4.1.2",
+    "mocha": "^4.1.0"
+  }
+}
